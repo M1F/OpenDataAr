@@ -20,8 +20,6 @@ public class MapsAPI : MonoBehaviour {
 	public GameObject RUN;
     public GameObject Menu;
     public Dropdown menuContent;
-    public GameObject testTxt;
-    public GameObject radar;
 
     float speed = 5.0f;
     string param = Interactable.Filter;
@@ -135,7 +133,6 @@ public class MapsAPI : MonoBehaviour {
         Input.location.Stop();
         Menu.GetComponent<ODCSV>().SetCurrBase(menuContent.value);
         List<arObject> neArObject = Menu.GetComponent<ODCSV>().findNearest(82.949649, 55.016980, 1000);
-        testTxt.GetComponent<Text>().text = neArObject.Count.ToString();
         if (neArObject != null)
         {
             Process1(neArObject);

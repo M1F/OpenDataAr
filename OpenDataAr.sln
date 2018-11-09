@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDataAr.CSharp.Plugins", "OpenDataAr.CSharp.Plugins.csproj", "{F393D843-4257-6EFC-A11E-80366A46877C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDataAr.CSharp", "OpenDataAr.CSharp.csproj", "{0D2FEE67-560F-6F1B-7135-C43413FF53DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F393D843-4257-6EFC-A11E-80366A46877C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F393D843-4257-6EFC-A11E-80366A46877C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F393D843-4257-6EFC-A11E-80366A46877C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F393D843-4257-6EFC-A11E-80366A46877C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2FEE67-560F-6F1B-7135-C43413FF53DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2FEE67-560F-6F1B-7135-C43413FF53DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2FEE67-560F-6F1B-7135-C43413FF53DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2FEE67-560F-6F1B-7135-C43413FF53DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

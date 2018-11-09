@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiterAR.CSharp.Plugins", "PiterAR.CSharp.Plugins.csproj", "{E2D7775E-7166-4819-33CF-923DC36AB253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiterAR.CSharp", "PiterAR.CSharp.csproj", "{C626D8F6-A6BB-CAF6-60F0-78A4F7B0A413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiterAR.CSharp.Editor", "PiterAR.CSharp.Editor.csproj", "{12D433E1-51CB-899D-8647-2C1E10F677B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2D7775E-7166-4819-33CF-923DC36AB253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D7775E-7166-4819-33CF-923DC36AB253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D7775E-7166-4819-33CF-923DC36AB253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D7775E-7166-4819-33CF-923DC36AB253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C626D8F6-A6BB-CAF6-60F0-78A4F7B0A413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C626D8F6-A6BB-CAF6-60F0-78A4F7B0A413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C626D8F6-A6BB-CAF6-60F0-78A4F7B0A413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C626D8F6-A6BB-CAF6-60F0-78A4F7B0A413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D433E1-51CB-899D-8647-2C1E10F677B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D433E1-51CB-899D-8647-2C1E10F677B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D433E1-51CB-899D-8647-2C1E10F677B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D433E1-51CB-899D-8647-2C1E10F677B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
